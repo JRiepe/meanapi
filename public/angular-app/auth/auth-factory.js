@@ -1,4 +1,4 @@
-angular.module('meanhotel').factory('AuthFactory', AuthFactory);
+angular.module('meanapi').factory('AuthFactory', AuthFactory);
 
 function AuthFactory() {
   return {

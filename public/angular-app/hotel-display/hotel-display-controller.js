@@ -1,4 +1,4 @@
-angular.module('meanhotel').controller('HotelController', HotelController);
+angular.module('meanapi').controller('HotelController', HotelController);
 
 function HotelController($route, $routeParams, $window, hotelDataFactory, AuthFactory, jwtHelper) {
   var vm = this;

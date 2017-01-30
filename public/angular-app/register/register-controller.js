@@ -1,4 +1,4 @@
-angular.module('meanhotel').controller('RegisterController', RegisterController);
+angular.module('meanapi').controller('RegisterController', RegisterController);
 
 function RegisterController($http) {
   var vm = this;

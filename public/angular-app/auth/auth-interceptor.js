@@ -1,4 +1,4 @@
-angular.module('meanhotel').factory('AuthInterceptor', AuthInterceptor);
+angular.module('meanapi').factory('AuthInterceptor', AuthInterceptor);
 
 function AuthInterceptor($location, $q, $window, AuthFactory) {
   return {

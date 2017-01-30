@@ -1,4 +1,4 @@
-angular.module('meanhotel').factory('hotelDataFactory', hotelDataFactory);
+angular.module('meanapi').factory('hotelDataFactory', hotelDataFactory);
 
 function hotelDataFactory($http) {
   return {

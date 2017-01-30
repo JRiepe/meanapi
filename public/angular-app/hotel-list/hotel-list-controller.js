@@ -1,4 +1,4 @@
-angular.module('meanhotel').controller('HotelsController', HotelsController);
+angular.module('meanapi').controller('HotelsController', HotelsController);
 
 function HotelsController(hotelDataFactory) {
   var vm = this;

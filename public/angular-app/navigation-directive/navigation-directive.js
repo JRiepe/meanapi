@@ -1,6 +1,6 @@
-angular.module('meanhotel').directive('mhNavigation', mhNavigation);
+angular.module('meanapi').directive('mainNavigation', mainNavigation);
 
-function mhNavigation() {
+function mainNavigation() {
   return {
     restrict: 'E',
     templateUrl: 'angular-app/navigation-directive/navigation-directive.html'
